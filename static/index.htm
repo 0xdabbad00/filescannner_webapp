@@ -1,0 +1,43 @@
+<html>
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/scanner.css" rel="stylesheet">
+    <link href="css/jquery.dataTables.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+    <h1>File Scanner</h1>
+
+    <form action="/file-upload"
+          class="dropzone"
+          id="mydropzone"></form>
+
+    <table cellpadding="0" cellspacing="0" border="0" class="display" id="datatable">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Submission Date</th>
+            <th>Filename</th>
+            <th>Filesize</th>
+            <th>MD5</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <hr>
+    <h3>Match data</h3>
+    <div id="matchData">Click an element to display it's matches</div>
+
+    </div>
+</body>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/dropzone.js"></script>
+<script src="js/jquery.dataTables.min.js"></script>
+<script src="js/scanner.js"></script>

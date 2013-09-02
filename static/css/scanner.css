@@ -1,0 +1,8 @@
+.dropzone {
+    border-style:dotted; 
+    border-width:2px;
+    min-height: 100px;
+    height:100px;
+}
+
+tr.row_selected td {background-color:#ffff00}
